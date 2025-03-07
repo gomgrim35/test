@@ -1,0 +1,78 @@
+body {
+ background-image: url("https://gomgrim35.github.io/test/Membership-Account-_Linking__600x600.jpeg");
+ background-color: #cccccc;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  font-size: 35px}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+head
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 32.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3e9dc;
+  font-family: Arial, sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #e0afa0;
+}
+
+card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+label {
+  background-color: #e0afa0;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #fec89a;
+  color: black;
+}
